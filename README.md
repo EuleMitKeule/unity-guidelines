@@ -16,7 +16,7 @@
 ### Coding style
 * Code must be **formatted correctly**, curly braces start on the **next line** (Allman style)
 * No **commented out "zombie code"** may be left in the scripts
-* Instead of concatenating string and other variables, **string interpolation** should be used
+* Instead of concatenating strings and other variables, **string interpolation** should be used
 
 ### Architecture
 * **No getter and setter** methods for single class variables should be implemented as in Java
@@ -39,7 +39,7 @@
 * If getter or setter methods are needed use **C# properties** instead
 * Do not use **redundant logic expressions** like isRunning == true
 * Use **switch** expressions or statements instead of if statements for case distinctions
-* Do not use **System.Reflection** in runtime code
 * **Avoid comments**, instead write self-documenting code and XML documentation
 * **Use empty lines** to divide code into logically related sections
 * Declare each variable on a **separate line**
+* Do not use **System.Reflection** in runtime code
