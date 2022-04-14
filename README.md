@@ -1,4 +1,5 @@
 # Coding Guidelines and Best Practices
+-> For examples see [README_WITH_EXAMPLES](README_WITH_EXAMPLES.md) or [ExampleCode.cs](ExampleCode.cs)
 
 ## Guidelines
 -> Points may be deducted for non-compliance
@@ -42,4 +43,4 @@
 * **Avoid comments**, instead write self-documenting code and XML documentation
 * **Use empty lines** to divide code into logically related sections
 * Declare each variable on a **separate line**
-* Do not use **System.Reflection** in runtime code
+* Do not use **System.Reflection** or **UnityEditor** in runtime code
