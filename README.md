@@ -36,7 +36,7 @@
 * constants should be declared with **const**
 * Use **enums** instead of strings or ints for **classification**
 * **private** does not have to be explicitly assigned
-* Use **compound assignments*** if possible
+* Use **compound assignments** if possible
 * If getter or setter methods are needed use **C# properties** instead
 * Do not use **redundant logic expressions** like isRunning == true
 * Use **switch** expressions or statements instead of if statements for case distinctions
